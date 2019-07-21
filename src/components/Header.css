@@ -1,0 +1,52 @@
+h1 {
+    margin: 0 0;
+}
+
+header#main-header {
+    background-color: rgb(65, 193, 231);
+    height: 200px;
+    border: 1px solid #DDD;
+}
+
+header#main-header .header-content {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    margin-top: 15px;
+    height: 150px;
+    padding: 0 30px;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+
+header#main-header .header-content .header-form {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+header#main-header .header-content .header-form input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    width: 27%;
+    border: none;
+    border-radius: 2px;
+}
+
+header#main-header .header-content .header-form button {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    width: 12%;
+    border: solid 2px #fafafa;
+    font-weight: 600;
+    background-color: rgb(65, 193, 231);
+    color: #fafafa;
+    text-transform: uppercase;
+    border-radius: 2px;
+}

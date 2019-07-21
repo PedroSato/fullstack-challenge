@@ -1,0 +1,20 @@
+div#main-div {    
+    margin-top:0px;
+    
+    
+}
+
+div#main-div .title-content {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    margin-top: 15px;
+    height: 150px;
+    padding: 0 30px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+    
+}

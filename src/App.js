@@ -1,24 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
 
+import Header from './components/Header'
+import ContentTitle from './components/ContentTitle'
+import EmployeeTable from './components/EmployeeTable';
+import PieChart from './components/PieChart'
+import FlexContainer from './components/FlexContainer'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <ContentTitle title="DADOS" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
+      <FlexContainer />
+
     </div>
   );
 }
